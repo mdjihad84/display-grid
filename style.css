@@ -1,0 +1,31 @@
+/* header section */
+.header{
+    padding: 10px;
+    background-color: rgb(12, 12, 46);
+    border-radius: 5px;
+    text-align: center;
+    color: whitesmoke;
+}
+
+/* main section */
+.child-div{
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr 2fr 0.5fr 0.5fr;
+    gap: 10px;
+}
+.main{
+    height: 500px;
+    background-color: seagreen;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+/* footer section */
+.footer{
+    background-color: rgb(12, 12, 46);
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+    text-align: center;
+    color: white;
+}
